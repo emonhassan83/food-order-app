@@ -12,11 +12,16 @@ export default function Header() {
           <Link href={""}>Menu</Link>
           <Link href={""}>About</Link>
           <Link href={""}>Contract</Link>
+        </nav>
+        <nav className="flex items-center gap-4 text-gray-500">
+          <Link href="/login">
+          Login
+          </Link>
           <Link
-            href={""}
-            className="bg-primary text-white rounded-full px-6 py-1 "
+            href={"/register"}
+            className="bg-primary text-white rounded-full px-6 py-2 "
           >
-            Login
+            Register
           </Link>
         </nav>
       </header>
