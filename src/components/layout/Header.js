@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <>
       <header className="flex items-center justify-between">
-        <a href="" className="uppercase text-red-600 font-semibold text-xl">
+        <a href="/" className="uppercase text-red-600 font-semibold text-xl">
           Tasty Trails
         </a>
         <nav className="flex gap-6 items-center text-gray-600 font-medium">
