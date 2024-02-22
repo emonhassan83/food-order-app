@@ -1,3 +1,4 @@
+import {AppProvider} from "@/components/AppProvider";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 
@@ -12,7 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <main className="max-w-7xl mx-auto p-4">{children}</main>
+        <main className="max-w-7xl mx-auto p-4">
+          <AppProvider>{children}</AppProvider>
+        </main>
       </body>
     </html>
   );
